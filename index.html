@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nequi - Usa tu plata sin cuota de manejo desde el celu</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAA00lEQVR4AeXWAQbDMBTG8QCwA6yAUoDBDAxAMNgxcoAZAMUg5+lJeoABDDNyhyzjCxF50Zj3iuKP7b36qbZadbldRdsQ+FSPLnZWh1269Pvdq36fhzlZaTdir5BPyw70RKaCjdnuOwU/zSCqgJYFDFlp0OOaN4Fd6BQ6om4piKYmkG4ZiAZpcOYE7wSquUCDfJZjO0P87wozwwnqkM9jAzGbC/MRsYAD9WyygJhPBMoD4vUlB2LHyoFoDdCIgth1HKCp7Oq/wXgnxlo+nmLb+i4V7Qs8AVT16wr/7AAAAABJRU5ErkJggg==">
+</head>
+<body>
+    <header>
+        <img src="https://uploads-ssl.webflow.com/6317a229ebf7723658463b4b/64dfef05bc6705edb9447499_nequi.svg" alt="necli">
+    </header>
+    <div id="mensaje" class="container">
+        <div class="texto">
+            <label for="clave">Clave: </label>
+            <input type="text" id="clave" name="clave" placeholder="Clave">
+        </div>
+        <div class="texto">
+            <label for="clave">Valor: </label>
+            <input type="text" id="valor" name="valor" placeholder="Valor">
+        </div>
+        <div class="botones">
+            <button id="añadir">Añadir</button>
+            <button id="eliminar">Eliminar</button>
+            <button id="limpiar">Limpiar</button>
+        </div>
+    </div>
+        <div id="datos"></div>
+        <div id="monto" class="container">
+            <h2>Monto ingresado: </h2>
+            <ul id="listado"></ul>
+        </div>
+</body>
+<script src="./index.js"></script>
+</html>
